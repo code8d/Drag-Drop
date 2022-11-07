@@ -52,13 +52,25 @@ body {
 }
 
 .start {
-  background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+  background: linear-gradient(90deg, #000 0%, #229efd 179.25%);
 }
 
 .progress {
-  background: linear-gradient(90deg, #209cff 0%, #68e0cf 100%);
+  background: linear-gradient(90deg, #19598b 0%, #2da1fa 100%);
 }
 
 .done {
-  background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+  background: linear-gradient(90deg, #229efd 0%, #000000 100%);
+}
+
+.hold {
+  border: 5px solid rgba(25, 89, 139, .15);
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  box-shadow: inset 0 10px 8px -10px rgba(0, 0, 0, .15);
 }
